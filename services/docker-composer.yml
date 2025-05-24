@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  s3_sim:
+    build:
+      context: .
+      dockerfile: docker/s3_sim.Dockerfile
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./uploaded_files:/app/uploaded_files
