@@ -1,4 +1,4 @@
-# aws-sim-lab
+# simulate-aws
 
 A **FastAPI-based simulation lab** that mimics core AWS services for backend engineers and DevOps learners. This project helps developers understand and experiment with service interactions, scalability, async workflows, and load testing — all while staying within free-tier or local environments.
 
@@ -39,6 +39,11 @@ aws-sim-lab/
 ├── grafana/
 └── README.md
 ```
+
+### ✅ `lambda_sim` (AWS Lambda Simulator)
+- Trigger async background jobs via `/trigger`
+- Celery worker runs simulated Lambda task
+- Task logs input + simulates processing time
 
 ## 🎓 What You'll Learn
 - How to simulate AWS patterns locally using FastAPI
