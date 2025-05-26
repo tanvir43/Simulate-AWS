@@ -40,6 +40,13 @@ aws-sim-lab/
 └── README.md
 ```
 
+## 📂 Current Completed Modules
+
+### ✅ `s3_sim` (Amazon S3 Simulator)
+- Upload any file via `/upload`
+- Auto-version files with timestamp prefix
+- Stores on local disk (`uploaded_files/`)
+
 ### ✅ `lambda_sim` (AWS Lambda Simulator)
 - Trigger async background jobs via `/trigger`
 - Celery worker runs simulated Lambda task
